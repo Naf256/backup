@@ -1,0 +1,12 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Learn how to create a react app",
+    "author": "Dan Abramov",
+    "url": "https://google.com",
+    "likes": 50
+}
+
+###
+GET http://localhost:3001/api/blogs

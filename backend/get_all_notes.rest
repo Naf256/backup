@@ -1,0 +1,29 @@
+GET http://localhost:3001/api/notes
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "this is cs50",
+    "important": true,
+    "userId": "6313393189067a2b0827b2f6"
+}
+###
+PUT http://localhost:3001/api/notes/62eaf1f310a28c7ead5ddc63
+Content-Type: application/json
+
+{
+    "content":"Helsinki is awesome",
+    "important": false
+}
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "amigos",
+    "name": "funkiee",
+    "password": "franckei"
+}
+###
+GET http://localhost:3001/api/users
